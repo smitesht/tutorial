@@ -10,19 +10,19 @@ The framework is a reusable design platform for software system, which provides 
 
 ### 3. Difference between .Net Core and .Net Framework
 
-<u>Framework<u>
+<b><u>Framework<u></b>
 
 .Net Core: it is cross platform, where we can create apps for Windows, Linux, MacOS, Android. iOS and more. It is based on Universal Windows Platform
 
 .Net Framework: it is fully development framework that provides all the basic requirements for the development of applications such as UI, DB connectivity, services, APIs etc.
 
-<u>Platform<u>
+<b><u>Platform<u></b>
 
 .Net Core: it is cross platform, where we can create apps for Windows, Linux, MacOS, Android. iOS and more. It is based on Universal Windows Platform
 
 .Net Framework: it is only compatible with Windows OS only
 
-<u>Microservices<u>
+<b><u>Microservices<u></b>
 
 .Net Core: it supports microservices that allows a mix of technologies that can be minimalized for each microservices.
 
