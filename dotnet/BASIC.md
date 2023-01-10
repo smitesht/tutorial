@@ -31,10 +31,10 @@ The framework is a reusable design platform for software system, which provides 
 
 - <b>Core CLR</b>: Core CLR is the Common Language Runtime optimized for multiplatform and cloud-based deployments. This, along with .Net Native Runtime, forms the foundation of all .Net based platforms.
 
-- .Net Native Runtime (Managed Runtime): It is also called Managed Runtime, that contains the native windows based libraries. This also contains Ahead Of Time (AOT) compilation instead of Just In Time (JIT) compilation. This improves the performance of the applications. The .Net Native Runtime and the Core CLR are the layers that contain implementations of primitive types as well as generic collections in .Net APIs.
+- <b>.Net Native Runtime (Managed Runtime)</b>: It is also called Managed Runtime, that contains the native windows based libraries. This also contains Ahead Of Time (AOT) compilation instead of Just In Time (JIT) compilation. This improves the performance of the applications. The .Net Native Runtime and the Core CLR are the layers that contain implementations of primitive types as well as generic collections in .Net APIs.
 
-- Unified Base Class Library (Unified BCL): The Unified Base Class Library, also referred to as CoreFX, consists of the basic and fundamental classed that form the core of the .Net Core platform.
+- <b>Unified Base Class Library (Unified BCL)</b>: The Unified Base Class Library, also referred to as CoreFX, consists of the basic and fundamental classed that form the core of the .Net Core platform.
 
-- App Models: App Models is on the top of the UBCL layer. It leverage developers to develop platform-specific applications.
+- <b>App Models</b>: App Models is on the top of the UBCL layer. It leverage developers to develop platform-specific applications.
 
 ### What is an IL code or Intermediate Language
