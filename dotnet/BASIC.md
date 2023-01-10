@@ -29,7 +29,7 @@ The framework is a reusable design platform for software system, which provides 
 
 ![alt text](dotnet_core_arch.png ".net core architecutre")
 
-- Core CLR: Core CLR is the Common Language Runtime optimized for multiplatform and cloud-based deployments. This, along with .Net Native Runtime, forms the foundation of all .Net based platforms.
+- <b>Core CLR</b>: Core CLR is the Common Language Runtime optimized for multiplatform and cloud-based deployments. This, along with .Net Native Runtime, forms the foundation of all .Net based platforms.
 
 - .Net Native Runtime (Managed Runtime): It is also called Managed Runtime, that contains the native windows based libraries. This also contains Ahead Of Time (AOT) compilation instead of Just In Time (JIT) compilation. This improves the performance of the applications. The .Net Native Runtime and the Core CLR are the layers that contain implementations of primitive types as well as generic collections in .Net APIs.
 
