@@ -28,7 +28,7 @@ The framework is a reusable design platform for software system, which provides 
 
 .Net Framework: it does not allow for the construction and deployment of microservices in multiple languages.
 
-### .Net Core Architecture
+### 4. .Net Core Architecture
 
 ![alt text](dotnet_core_arch.png ".net core architecutre")
 
@@ -40,7 +40,7 @@ The framework is a reusable design platform for software system, which provides 
 
 - <b>App Models</b>: App Models is on the top of the UBCL layer. It leverage developers to develop platform-specific applications.
 
-### What are some common .Net components
+### 5. What are some common .Net components
 
 1. .Net Class Library
 
@@ -54,7 +54,7 @@ The framework is a reusable design platform for software system, which provides 
 
 these are the most common .Net component, however there are many.
 
-### What is Intermediate Language (IL) OR MSIL (Microsoft Intermediate Language) or CLI (Common Intermediate Language)
+### 6. What is Intermediate Language (IL) OR MSIL (Microsoft Intermediate Language) or CLI (Common Intermediate Language)
 
 ![alt text](msil.png "msil")
 
@@ -64,7 +64,7 @@ MSIL provides instructions for calling methods, storing and initializing values,
 
 All .Net source code is compiled to IL. This IL is then converted to machine code at the point where the software installed, or at run-time by a just-in-time compiler.
 
-### What is CLR or Common Language Runtime?
+### 7. What is CLR or Common Language Runtime?
 
 ![alt text](clr.jpg "CLR")
 
@@ -82,7 +82,7 @@ CLR perform following responsibilities
 
 4. IL to native translator and optimizer's: CLR uses JIT and compiles the IL code to machine code and then executes. CLR also determines dependeng on platform what is optimized way of running the IL code.
 
-### What is CTS or Common Type System
+### 8. What is CTS or Common Type System
 
 ![alt text](cts.png "cts")
 
@@ -100,6 +100,6 @@ Reference Type:
 
 Reference types store a reference to the value's memory address, and are allocated on the heap. Reference types can be self-describing types, or interface types.
 
-### Common Language Specification (CLS):
+### 9. Common Language Specification (CLS):
 
 It is a sub set of CTS and it speficies a set of rules that need to be followed by all language compilers targetting CLR. It helps in cross language inheritance and cross language debugging.
